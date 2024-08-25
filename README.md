@@ -1,3 +1,3 @@
 # photo-renamer
 
-script too mass renmae photos
+script too mass rename photos
