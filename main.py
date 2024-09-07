@@ -14,7 +14,7 @@ def rename_photos_in_directory(directory):
         file_path = os.path.join(directory, filename)
         if os.path.isfile(file_path):
             file_ext = os.path.splitext(filename)[1].lower()
-            if file_ext in ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff']:
+            if file_ext in ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp']:
                 new_name = generate_random_number() + file_ext
                 new_path = os.path.join(directory, new_name)
                 os.rename(file_path, new_path)
