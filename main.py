@@ -28,6 +28,6 @@ def rename_photos_in_directory(directory):
 
 if __name__ == "__main__":
     directory = input(
-        "Enter the directory path (use ~ for home, . for current, .. for parent): "
+        "Enter the directory path : "
     )
     rename_photos_in_directory(directory)
